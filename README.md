@@ -412,9 +412,7 @@ for project_id in projects:
         print(f"✗ {project_id}: {e}")
 ```
 
-## Python API Reference
-
-### Main Functions
+### Python API Reference
 
 #### `ENATool.fetch(project_id, path=None, download=False)`
 
@@ -442,7 +440,8 @@ Download FASTQ files for samples in DataFrame.
 If you use ENATool in your research, please cite:
 
 ```
-Tikhonova, P. (2021). ENATool: European Nucleotide Archive Data Manager (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.17443004
+Tikhonova, P. (2021). ENATool: European Nucleotide Archive Data Manager
+(v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.17443004
 ```
 
 
